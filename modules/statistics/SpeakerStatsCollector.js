@@ -157,6 +157,7 @@ export default class SpeakerStatsCollector {
      * associated user's SpeakerStats model.
      */
     getStats() {
+        console.log('boooommmm check');
         return this.stats.users;
     }
 
